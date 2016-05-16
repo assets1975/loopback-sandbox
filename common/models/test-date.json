@@ -1,23 +1,17 @@
 {
-  "name": "category",
+  "name": "testDate",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string"
+    "myDate": {
+      "type": "date"
     }
   },
   "validations": [],
-  "relations": {
-    "games": {
-      "type": "hasMany",
-      "model": "game",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
