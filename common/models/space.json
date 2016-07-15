@@ -15,7 +15,7 @@
     "customers": {
       "type": "hasMany",
       "model": "Customer",
-      "foreignKey": "CustomerId",
+      "foreignKey": "SpaceId",
       "through": "SpaceCustomer"
     }
   },
