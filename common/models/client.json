@@ -1,5 +1,5 @@
 {
-  "name": "player",
+  "name": "Client",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -12,9 +12,9 @@
   },
   "validations": [],
   "relations": {
-    "game": {
-      "type": "belongsTo",
-      "model": "game",
+    "children": {
+      "type": "hasMany",
+      "model": "Child",
       "foreignKey": ""
     }
   },

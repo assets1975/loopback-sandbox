@@ -1,20 +1,23 @@
 {
-  "name": "category",
+  "name": "Job",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "status": {
+      "type": "string"
+    },
     "name": {
       "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "games": {
-      "type": "hasMany",
-      "model": "game",
+    "child": {
+      "type": "belongsTo",
+      "model": "Child",
       "foreignKey": ""
     }
   },

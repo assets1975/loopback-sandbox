@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Note": 1,
+    "Client": 2,
+    "Child": 2,
+    "Job": 2
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Note": {},
+    "Client": {
+      "1": "{\"name\":\"client1\",\"id\":1}"
+    },
+    "Child": {
+      "1": "{\"name\":\"child1\",\"clientId\":1,\"id\":1}"
+    },
+    "Job": {
+      "1": "{\"status\":\"status1\",\"name\":\"job1\",\"childId\":1,\"id\":1}"
+    }
+  }
+}

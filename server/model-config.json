@@ -26,21 +26,27 @@
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": false
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
   },
   "Role": {
     "dataSource": "db",
     "public": false
   },
-  "category": {
+  "Note": {
+    "dataSource": "db"
+  },
+  "Client": {
     "dataSource": "db",
     "public": true
   },
-  "game": {
+  "Child": {
     "dataSource": "db",
     "public": true
   },
-  "player": {
+  "Job": {
     "dataSource": "db",
     "public": true
   }

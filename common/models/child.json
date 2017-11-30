@@ -1,35 +1,25 @@
 {
-  "name": "game",
+  "name": "Child",
   "base": "PersistedModel",
   "idInjection": true,
-  "scopes": {
-    "mature": {
-      "where": {
-        "mature": true
-      }
-    }
-  },
   "options": {
     "validateUpsert": true
   },
   "properties": {
     "name": {
       "type": "string"
-    },
-    "mature": {
-      "type": "boolean"
     }
   },
   "validations": [],
   "relations": {
-    "category": {
+    "client": {
       "type": "belongsTo",
-      "model": "category",
+      "model": "Client",
       "foreignKey": ""
     },
-    "players": {
+    "jobs": {
       "type": "hasMany",
-      "model": "player",
+      "model": "Job",
       "foreignKey": ""
     }
   },
