@@ -32,16 +32,7 @@
     "dataSource": "db",
     "public": false
   },
-  "category": {
-    "dataSource": "db",
-    "public": true
-  },
-  "game": {
-    "dataSource": "db",
-    "public": true
-  },
-  "player": {
-    "dataSource": "db",
-    "public": true
+  "Note": {
+    "dataSource": "db"
   }
 }
